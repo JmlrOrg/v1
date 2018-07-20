@@ -1,0 +1,65 @@
+<html> 
+ <head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+
+<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Lagrangian Support Vector Machines">
+
+  <meta name="citation_author" content="Mangasarian, O. L.">
+
+  <meta name="citation_author" content="Musicant, David R.">
+
+<meta name="citation_publication_date" content="2001">
+<meta name="citation_journal_title" content="Journal of Machine Learning Research">
+<meta name="citation_issn" content="ISSN 1533-7928">
+<meta name="citation_volume" content="1">
+<meta name="citation_issue" content="Mar">
+<meta name="citation_firstpage" content="161">
+<meta name="citation_lastpage" content="177">
+<meta name="citation_pdf_url" content="http://www.jmlr.org/papers/volume1/mangasarian01a/mangasarian01a.pdf">
+ 
+  <!--#include virtual="/css-scroll.txt"-->
+<style>
+. {font-family:verdana,helvetica,sans-serif}
+a {text-decoration:none;color:#3030a0}
+ </style>
+<body>
+ <div id="content">
+
+<h2>Lagrangian Support Vector Machines</h2>
+<p><b><i>O. L. Mangasarian, David R. Musicant</b></i>; 
+1(Mar):161-177, 2001.</p>
+<h3>Abstract</h3>
+An implicit Lagrangian for the dual of a simple reformulation of the
+standard quadratic program of a linear support vector machine is
+proposed.  This leads to the minimization of an unconstrained
+differentiable convex function in a space of dimensionality equal to
+the number of classified points.  This problem is solvable by an
+extremely simple linearly convergent Lagrangian support vector machine
+(LSVM) algorithm. LSVM requires the inversion at the outset of a
+single matrix of the order of the much smaller dimensionality of the
+original input space plus one. The full algorithm is given in this
+paper in 11 lines of MATLAB code without any special optimization
+tools such as linear or quadratic programming solvers. This LSVM code
+can be used "as is" to solve classification problems with millions of
+points. For example, 2 million points in 10 dimensional input space
+were classified by a linear surface in 82 minutes on a Pentium III 500
+MHz notebook with 384 megabytes of memory (and additional swap space),
+and in 7 minutes on a 250 MHz UltraSPARC II processor with 2 gigabytes
+of memory.  Other standard classification test problems were also
+solved.  Nonlinear kernel classification can also be solved by LSVM.
+Although it does not scale up to very large problems, it can handle
+any positive semidefinite kernel and is guaranteed to converge. A
+short MATLAB code is also given for nonlinear kernels and tested on a
+number of problems.
+<p><font color=gray>[abs]</font>
+<a target=_blank href=http://www.jmlr.org/papers/volume1/mangasarian01a/mangasarian01a.pdf>[pdf]</a>
+<a target=_blank href=http://www.jmlr.org/papers/volume1/mangasarian01a/mangasarian01a.ps.gz>[ps.gz]</a>
+<a target=_blank href=http://www.jmlr.org/papers/volume1/mangasarian01a/mangasarian01a.ps>[ps]</a>
+<a target=_blank href=http://www.jmlr.org/papers/volume1/mangasarian01a/html>[html]</a>
+</div> 
+ <!--#include virtual="/nav-bar.txt"--> 
+  </body>
+ </html>

@@ -1,0 +1,67 @@
+<html> 
+ <head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+
+<!-- Google Scholar Meta Data -->
+
+<meta name="citation_title" content="Tracking the Best Linear Predictor">
+
+  <meta name="citation_author" content="Herbster, Mark">
+
+  <meta name="citation_author" content="Warmuth, Manfred K.">
+
+<meta name="citation_publication_date" content="2001">
+<meta name="citation_journal_title" content="Journal of Machine Learning Research">
+<meta name="citation_issn" content="ISSN 1533-7928">
+<meta name="citation_volume" content="1">
+<meta name="citation_issue" content="Sep">
+<meta name="citation_firstpage" content="281">
+<meta name="citation_lastpage" content="309">
+<meta name="citation_pdf_url" content="http://www.jmlr.org/papers/volume1/herbster01a/herbster01a.pdf">
+ 
+  <!--#include virtual="/css-scroll.txt"-->
+<style>
+. {font-family:verdana,helvetica,sans-serif}
+a {text-decoration:none;color:#3030a0}
+ </style>
+<body>
+ <div id="content">
+
+<h2>Tracking the Best Linear Predictor</h2>
+<p><b><i>Mark Herbster, Manfred K. Warmuth</b></i>; 
+1(Sep):281-309, 2001.</p>
+<h3>Abstract</h3>
+In most on-line learning research the total on-line loss of the
+algorithm is compared to the total loss of the best off-line predictor
+<i>u</i> from a comparison class of predictors.  We call such bounds 
+<i>static bounds</i>.  The interesting feature of these bounds is that they
+hold for an arbitrary sequence of examples.  Recently some work has
+been done where the predictor <i>u<sub>t</sub></i> at each trial <i>t</i> is allowed to
+change with time, and the total on-line loss of the algorithm is
+compared to the sum of the losses of <i>u<sub>t</sub></i> at each trial plus the
+total "cost" for shifting to successive predictors.  This is to
+model situations in which the examples change over time, and different
+predictors from the comparison class are best for different segments
+of the sequence of examples.  We call such bounds <i>shifting
+bounds</i>.  They hold for arbitrary sequences of examples and arbitrary
+sequences of predictors.
+<p>
+Naturally shifting bounds are much harder to prove.  The only known
+bounds are for the case when the comparison class consists of a
+sequences of experts or boolean disjunctions. In this paper we develop
+the methodology for lifting known static bounds to the shifting case.
+In particular we obtain bounds when the comparison class consists of
+linear neurons (linear combinations of experts).  Our essential
+technique is to <i>project</i> the hypothesis of the static algorithm
+at the end of each trial into a suitably chosen convex region.  This
+keeps the hypothesis of the algorithm well-behaved and the static
+bounds can be converted to shifting bounds.
+<p><font color=gray>[abs]</font>
+<a target=_blank href=http://www.jmlr.org/papers/volume1/herbster01a/herbster01a.pdf>[pdf]</a>
+<a target=_blank href=http://www.jmlr.org/papers/volume1/herbster01a/herbster01a.ps.gz>[ps.gz]</a>
+<a target=_blank href=http://www.jmlr.org/papers/volume1/herbster01a/herbster01a.ps>[ps]</a>
+</div> 
+ <!--#include virtual="/nav-bar.txt"--> 
+  </body>
+ </html>
